@@ -50,7 +50,7 @@ export const CartProvider = ({ children }) => {
 	return (
 		<CartContext.Provider
 			//used as provider for cart related data.
-			//OpenAi assistance with using .provider code.
+			//OpenAi assistance with using .provider code to assist me in tying it all together.
 			value={{ cart, addToCart, removeFromCart, updateQuantity, clearCart }}
 			//prop used to define values that context provider will make available to consuming components
 		>
